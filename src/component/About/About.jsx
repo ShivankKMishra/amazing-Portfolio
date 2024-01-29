@@ -38,28 +38,32 @@ export default function About() {
           <div className="mb-4 md:mb-0 border border-black rounded-3xl px-4 md:px-20 py-4 md:py-9 mr-0 md:mr-8">
             <h1 className="font-bold text-2xl text-gray-500">Frontend</h1>
             <table className="table-auto font-bold mx-auto">
-              <tr className="mb-4">
-                <td className="p-2">HTML</td>
-                <td className="p-2">Javascript</td>
-              </tr>
-              <tr className="mb-4">
-                <td className="p-2">CSS</td>
-                <td className="p-2">C++</td>
-              </tr>
+              <tbody>
+                <tr className="mb-4">
+                  <td className="p-2">HTML</td>
+                  <td className="p-2">Javascript</td>
+                </tr>
+                <tr className="mb-4">
+                  <td className="p-2">CSS</td>
+                  <td className="p-2">C++</td>
+                </tr>
+              </tbody>
             </table>
           </div>
 
           <div className="border border-black rounded-3xl px-4 md:px-20 py-4 md:py-9">
             <h1 className="font-bold text-2xl text-gray-500">Backend</h1>
             <table className="table-auto font-bold mx-auto">
-              <tr className="mb-4">
-                <td className="p-2">Node.js</td>
-                <td className="p-2">Express.js</td>
-              </tr>
-              <tr className="mb-4">
-                <td className="p-2">MongoDB</td>
-                <td className="p-2">Git</td>
-              </tr>
+              <tbody>
+                <tr className="mb-4">
+                  <td className="p-2 ">Node.js</td>
+                  <td className="p-2 ">Express.js</td>
+                </tr>
+                <tr className="mb-4">
+                  <td className="p-2">MongoDB</td>
+                  <td className="p-2">Git</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
